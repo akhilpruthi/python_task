@@ -9,12 +9,12 @@
     width: 80%;
     margin: auto;
     height: 700px;
-    background-color: bisque;
+    background-color: white;
     position: relative;
 }
 
 .container1 {
-    width: 50%;
+    width: 48%;
     background-color: white;
     height: 700px;
     position: relative;
@@ -61,24 +61,40 @@
 }
 
 .background_container_grid_container {
-    background-color: lightgray;
+    background-color: white;
 }
 
 .grid_container {
+    
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 1px;
     background-color: white;
     padding: 10px;
 }
 
 .grid_container>div {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 1px solid black; */
-
+    
+    border: 1px solid lightgrey;
     font-family: Helvetica;
-    text-align: center;
+    text-align:center;
     font-size: 16px;
+}
+
+.grid_container>div:nth-child(-n + 3) {
+    border-top: none;
+} 
+
+.grid_container>div:nth-child(3n) {
+    border-right: none;
+}
+
+.grid_container>div:nth-child(3n  - 2) {
+    border-left: none;
+} 
+
+.grid_container>div:nth-child(n + 7) {
+    border-bottom: none;
 }
 
 .heading2 {
@@ -93,16 +109,6 @@
     margin: auto;
     text-align: center;
 }
-
-/* container4_text {
-    width: 100%;
-    text-align: center;
-} */
-
-/* .container4_c1 {
-    width: 20%;
-    background-color: lightpink;
-} */
 
 .container4_c2 {
     width: 20%;
@@ -131,7 +137,7 @@
 .container5_2 {
     width: 80%;
     float: right;
-    /* text-align: center; */
+   
 }
 
 .container5_3 {
@@ -156,10 +162,6 @@
     float: right;
     color: #373333;
 }
-
-/* .container6_unordered-list li {
-    text-align: left;
-} */
 
 .container6_paragraph1 {
     margin-left: 24px;
@@ -284,14 +286,14 @@
 .button {
 
     border: none;
-    /* color: white; */
+   
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 14px 14px;
-    /* cursor: pointer; */
+    
 }
 
 .primary_button {
@@ -459,38 +461,7 @@
     margin-top: 20px;
 }
 
-/* 
-.container12_checkbox-round {
-    width: 1.3em;
-    height: 1.3em;
-    background-color: grey;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 1px solid #ddd;
-    appearance: none;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
-} */
 
-/* .container12_checkbox-round:checked {
-    background-color: white;
-    content: '✔';
-
-} */
-/* 
-#low_priority {
-    width: 1.3em;
-    height: 1.3em;
-    background-color: white;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 1px solid #ddd;
-    appearance: none; */
-/* -webkit-appearance: none;
-outline: none;
-cursor: pointer;
-} */
 
 #cars {
     width: 86%;
@@ -511,7 +482,6 @@ cursor: pointer;
     border-radius: 50%;
 }
 
-/* Create a custom checkbox */
 
 .container12_2_2_1 {
     width: 100%;
@@ -535,7 +505,6 @@ cursor: pointer;
 .container12_button {
     font-size: medium;
     width: 10em;
-    /* margin-left: 20px; */
     margin-top: 20px;
     height: 4em;
     border-radius: 22px;
