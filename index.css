@@ -1,0 +1,632 @@
+.main_container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper_container {
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    background-color: bisque;
+    position: relative;
+}
+
+.container1 {
+    width: 50%;
+    background-color: white;
+    height: 700px;
+    position: relative;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 1px; */
+}
+
+.heading1 {
+    margin-top: 200px;
+}
+
+.get-started_button {
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px lightgrey solid;
+    background-color: white;
+    width: 10em;
+    height: 50px;
+    align-items: center;
+
+}
+
+.container2 {
+    float: right;
+    width: 50%;
+    background-color: white;
+    height: 700px;
+    position: relative;
+    /* margin: 10px; */
+}
+
+.container2_image {
+    width: 520px;
+    length: 350px;
+    float: right;
+}
+
+.container3 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.background_container_grid_container {
+    background-color: lightgray;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid_container>div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid black; */
+
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 16px;
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container4 {
+
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+/* container4_text {
+    width: 100%;
+    text-align: center;
+} */
+
+/* .container4_c1 {
+    width: 20%;
+    background-color: lightpink;
+} */
+
+.container4_c2 {
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container4_c3 {
+    width: 80%;
+    float: right;
+}
+
+.container5 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container5_1 {
+    width: 20%;
+    float: left;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container5_2 {
+    width: 80%;
+    float: right;
+    /* text-align: center; */
+}
+
+.container5_3 {
+    width: 80%;
+    float: right;
+}
+
+.container6 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container6_1 {
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container6_2 {
+    width: 80%;
+    float: right;
+    color: #373333;
+}
+
+/* .container6_unordered-list li {
+    text-align: left;
+} */
+
+.container6_paragraph1 {
+    margin-left: 24px;
+
+}
+
+.container7 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container7_1 {
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container7_2 {
+    width: 80%;
+    float: right;
+}
+
+.container7_ordered-list li {
+    margin-bottom: 10px;
+    color: #373333;
+
+}
+
+.container8 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+
+}
+
+.container8_1 {
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container8_2 {
+    width: 80%;
+    float: right;
+    color: #373333;
+}
+
+.container8_paragraph1 {
+    /* text-align: center; */
+    margin-top: 18px;
+}
+
+.container9 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container9_1 {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container9_2 {
+    margin-top: 40px;
+    float: left;
+    height: 100px;
+    border-left: 6px solid lightgray;
+}
+
+.container9_3 {
+    margin-top: 40px;
+    width: 78%;
+    float: right;
+    color: #373333;
+}
+
+.container10 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container10_1 {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container10_2 {
+    margin-top: 40px;
+    width: 80%;
+    float: right;
+    color: #373333;
+    background-color: lightgrey;
+}
+
+.container11 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container11_1 {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container11_2 {
+    margin-top: 40px;
+    width: 80%;
+    float: right;
+    background-color: white;
+}
+
+.button {
+
+    border: none;
+    /* color: white; */
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 14px;
+    /* cursor: pointer; */
+}
+
+.primary_button {
+    text-align: center;
+    font-family: arial;
+    width: 8em;
+    font-size: large;
+    color: white;
+    background-color: black;
+    border-radius: 22px;
+    border: 2px solid black;
+
+}
+
+.secondary_button {
+    text-align: center;
+    font-family: arial;
+    width: 8em;
+    font-size: large;
+    color: black;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 22px;
+}
+
+.normal_button {
+    text-align: center;
+    width: 8em;
+    font-size: medium;
+    color: black;
+    background-color: white;
+    border-radius: 22px;
+    border: 2px solid lightgrey;
+}
+
+.small_button {
+    text-align: center;
+    width: 7em;
+    font-size: x-small;
+    color: black;
+    background-color: white;
+    border-radius: 22px;
+    border: 2px solid lightgrey;
+}
+
+.fit_black {
+    background-color: black;
+    border-radius: 22px;
+    width: 12em;
+    color: white;
+
+}
+
+.fit_white {
+    background-color: white;
+    border-radius: 22px;
+    width: 12em;
+    color: black;
+    border: 2px solid lightgrey;
+
+}
+
+.fit_black_small {
+    background-color: black;
+    border-radius: 22px;
+    width: 20em;
+    color: white;
+    font-size: 10px;
+
+}
+
+.fit_white_small {
+    background-color: white;
+    border-radius: 22px;
+    width: 20em;
+    color: black;
+    font-size: 10px;
+    border: 2px solid lightgrey;
+
+}
+
+.button1 {
+    background-color: lightgrey;
+    color: white;
+    border-radius: 22px;
+    width: 8em;
+    font-size: large;
+}
+
+.button2 {
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 22px;
+    width: 8em;
+    font-size: large;
+}
+
+.container12 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container12_1 {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container12_2 {
+    margin-top: 40px;
+    width: 80%;
+    float: right;
+    background-color: white;
+}
+
+.container12_2_1 {
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+.container12_2_2 {
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+    float: right;
+}
+
+.container12_2_3 {
+    width: 100%;
+    margin: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.container12_2_4 {
+    width: 100%;
+    margin: auto;
+    float: left;
+    margin-top: 20px;
+    font-size: large;
+
+}
+
+.container12_2_5 {
+    width: 100%;
+    margin: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.input_name {
+    width: 65%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.input_email {
+    width: 65%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+/* 
+.container12_checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: grey;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+} */
+
+/* .container12_checkbox-round:checked {
+    background-color: white;
+    content: '✔';
+
+} */
+/* 
+#low_priority {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none; */
+/* -webkit-appearance: none;
+outline: none;
+cursor: pointer;
+} */
+
+#cars {
+    width: 86%;
+    height: 28px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 50%;
+}
+
+/* Create a custom checkbox */
+
+.container12_2_2_1 {
+    width: 100%;
+    margin: auto;
+}
+
+.container12_2_1_1 {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+}
+
+.container12_2_1_2 {
+    width: 50%;
+    float: right;
+    text-align: left;
+    font-size: 18px;
+}
+
+.container12_button {
+    font-size: medium;
+    width: 10em;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+    height: 4em;
+    border-radius: 22px;
+}
+
+.container13 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container13_1 {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container13_2 {
+    margin-top: 40px;
+    width: 80%;
+    float: right;
+    background-color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th {
+    font-size: large;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: large;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.container14 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container14_1 {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container14_2 {
+    margin-top: 40px;
+    width: 80%;
+    float: right;
+    background-color: white;
+    color: #373333;
+    font-family: arial;
+}
+
+.container15 {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.container15_1 {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    font-size: 22px;
+}
+
+.container15_2 {
+    margin-top: 40px;
+    width: 80%;
+    float: right;
+    background-color: white;
+}
+
+.container15_box {
+    color: #373333;
+    border: 2px solid #373333;
+    padding: 15px;
+    font-size: 22px;
+}
